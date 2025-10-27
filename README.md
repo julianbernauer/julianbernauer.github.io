@@ -1,15 +1,6 @@
 # Dr. Julian Bernauer - Personal Website
 
-A modern, professional website for Dr. Julian Bernauer, Political Science Researcher at the Mannheim Centre for European Social Research (MZES), University of Mannheim, Germany.
-
-## About
-
-This website showcases Dr. Bernauer's research, publications, and teaching experience in political science, with a focus on:
-
-- Political institutions and representation
-- Quantitative text analysis and populism research
-- Democratic patterns and power diffusion
-- Comparative political analysis
+Professional website for Dr. Julian Bernauer, Political Science Researcher at the Mannheim Centre for European Social Research (MZES), University of Mannheim, Germany.
 
 ## Features
 
