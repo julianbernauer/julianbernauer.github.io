@@ -1,0 +1,36 @@
+name: Dr. Julian Bernauer
+description: Personal website of Dr. Julian Bernauer, Political Science Researcher at the Mannheim Centre for European Social Research (MZES), University of Mannheim, Germany
+url: https://julianbernauer.github.io
+baseurl: ""
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+
+# Exclude files from processing
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .sass-cache
+  - .jekyll-cache
+  - .DS_Store
+
+# Include files
+include:
+  - _pages
+
+# SEO settings
+author: Julian Bernauer
+twitter_username: 
+github_username: julianbernauer
+
+# Google Analytics (if needed)
+# google_analytics: 
+
+# Additional settings
+timezone: Europe/Berlin
+lang: en

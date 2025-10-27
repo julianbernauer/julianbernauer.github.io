@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://julianbernauer.github.io/sitemap.xml
