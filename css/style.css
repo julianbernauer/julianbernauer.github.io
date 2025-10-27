@@ -400,6 +400,50 @@ em {
     font-size: 1.125rem;
 }
 
+/* Books grid (cards) */
+.books-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.book-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: linear-gradient(180deg, #fff 0%, #fffaf5 100%);
+    padding: 1.25rem;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.06);
+    border: 1px solid rgba(0,0,0,0.04);
+}
+
+.book-card h3 {
+    font-size: 1.05rem;
+    color: #2c3e50;
+    margin-bottom: 0.5rem;
+}
+
+.book-card .publication-details {
+    color: #6b4a2a;
+    font-size: 0.95rem;
+    margin-bottom: 0.75rem;
+}
+
+.book-card .publication-link a {
+    display: inline-block;
+    background-color: #CD853F;
+    color: #fff;
+    padding: 0.5rem 0.9rem;
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+.book-card .publication-link a:hover {
+    background-color: #B8860B;
+}
+
 .publication-details {
     color: #666;
     margin-bottom: 0.5rem;
