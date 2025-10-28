@@ -511,11 +511,14 @@ em {
 }
 
 .popcon-logo-inline {
-    height: 20px;
-    width: auto;
+    height: 20px !important;
+    max-height: 20px !important;
+    width: auto !important;
+    max-width: 20px !important;
     vertical-align: middle;
     margin: 0 4px;
     border-radius: 3px;
+    display: inline;
 }
 
 .project-details ul {
