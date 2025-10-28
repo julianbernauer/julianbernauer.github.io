@@ -472,7 +472,7 @@ em {
     margin-bottom: 2rem;
     overflow-x: hidden;
     padding-bottom: 0.5rem;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     justify-content: center;
 }
 
