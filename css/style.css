@@ -679,7 +679,7 @@ em {
 .research-timeline::before {
     content: '';
     position: absolute;
-    left: 100px;
+    left: 185px;
     top: 0;
     bottom: 0;
     width: 2px;
@@ -697,7 +697,7 @@ em {
 .research-timeline .timeline-item::before {
     content: '';
     position: absolute;
-    left: 94px;
+    left: 179px;
     top: 0.5rem;
     width: 12px;
     height: 12px;
