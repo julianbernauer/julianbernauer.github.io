@@ -474,6 +474,7 @@ em {
     overflow-x: auto;
     padding-bottom: 0.5rem;
     flex-wrap: nowrap;
+    justify-content: center;
 }
 
 .conference-card {
