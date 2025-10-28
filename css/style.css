@@ -463,6 +463,63 @@ em {
     background-color: #B8860B;
 }
 
+/* Conference cards (monitor style) */
+.conference-grid {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    margin-bottom: 2rem;
+    overflow-x: auto;
+    padding-bottom: 0.5rem;
+    flex-wrap: nowrap;
+}
+
+.conference-card {
+    min-width: 320px;
+    max-width: 360px;
+    flex-shrink: 0;
+    flex-grow: 0;
+}
+
+.monitor-screen {
+    background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+    border: 8px solid #1a1a1a;
+    border-radius: 12px 12px 4px 4px;
+    padding: 1.5rem;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    position: relative;
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.monitor-screen::after {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 8px;
+    background: #1a1a1a;
+    margin: 1rem auto -1.5rem;
+    border-radius: 0 0 4px 4px;
+    position: relative;
+    top: 1.5rem;
+}
+
+.monitor-screen h3 {
+    color: #fff;
+    font-size: 1.1rem;
+    margin-bottom: 0.75rem;
+    line-height: 1.4;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.conference-details {
+    color: #ecf0f1;
+    font-size: 0.9rem;
+    line-height: 1.5;
+    margin-top: auto;
+}
+
 .publication-details {
     color: #666;
     margin-bottom: 0.5rem;
@@ -924,6 +981,28 @@ em {
 
     .book-card .publication-details {
         font-size: 0.9rem;
+    }
+
+    /* Adjust conference cards for mobile */
+    .conference-grid {
+        gap: 1.5rem;
+    }
+
+    .conference-card {
+        min-width: 280px;
+    }
+
+    .monitor-screen {
+        padding: 1.25rem;
+        min-height: 180px;
+    }
+
+    .monitor-screen h3 {
+        font-size: 1rem;
+    }
+
+    .conference-details {
+        font-size: 0.85rem;
     }
 }
 
