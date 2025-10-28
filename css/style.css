@@ -420,6 +420,7 @@ em {
     box-shadow: 0 8px 20px rgba(0,0,0,0.06);
     border: 1px solid rgba(0,0,0,0.04);
     min-width: 280px;
+    min-height: 220px;
     flex-shrink: 0;
 }
 
