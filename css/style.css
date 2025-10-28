@@ -494,7 +494,8 @@ em {
     height: auto;
     display: flex;
     flex-direction: column;
-    overflow: visible;
+    overflow-y: hidden;
+    overflow-x: visible;
 }
 
 .monitor-screen::after {
@@ -1052,7 +1053,7 @@ em {
 
     .monitor-screen {
         padding: 1.25rem;
-        min-height: 180px;
+        height: auto;
     }
 
     .monitor-screen h3 {
