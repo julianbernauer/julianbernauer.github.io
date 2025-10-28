@@ -510,6 +510,14 @@ em {
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
+.popcon-logo-inline {
+    height: 20px;
+    width: auto;
+    vertical-align: middle;
+    margin: 0 4px;
+    border-radius: 3px;
+}
+
 .project-details ul {
     margin: 1rem 0;
 }
