@@ -409,6 +409,7 @@ em {
     overflow-x: auto;
     padding-bottom: 0.5rem;
     flex-wrap: nowrap;
+    justify-content: center;
 }
 
 .book-card {
@@ -472,11 +473,13 @@ em {
     overflow-x: auto;
     padding-bottom: 0.5rem;
     flex-wrap: nowrap;
+    justify-content: center;
 }
 
 .conference-card {
     min-width: 320px;
-    max-width: 360px;
+    max-width: 320px;
+    width: 320px;
     flex-shrink: 0;
     flex-grow: 0;
 }
@@ -488,7 +491,8 @@ em {
     padding: 1.5rem;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
     position: relative;
-    min-height: 200px;
+    min-height: 220px;
+    height: 220px;
     display: flex;
     flex-direction: column;
 }
@@ -590,6 +594,57 @@ em {
 
 .project-details ul {
     margin: 1rem 0;
+    list-style: none;
+    padding-left: 0;
+}
+
+.project-details ul li {
+    padding-left: 1.5rem;
+    position: relative;
+    margin-bottom: 0.5rem;
+}
+
+.project-details ul li::before {
+    content: '🏀';
+    position: absolute;
+    left: 0;
+    font-size: 0.8rem;
+}
+
+/* General list styling for basketball bullets */
+.about-content ul,
+.about-content ol {
+    list-style: none;
+    padding-left: 0;
+}
+
+.about-content ul li,
+.about-content ol li {
+    padding-left: 1.5rem;
+    position: relative;
+    margin-bottom: 0.5rem;
+}
+
+.about-content ul li::before {
+    content: '🏀';
+    position: absolute;
+    left: 0;
+    font-size: 0.8rem;
+}
+
+.about-content ol {
+    counter-reset: item;
+}
+
+.about-content ol li {
+    counter-increment: item;
+}
+
+.about-content ol li::before {
+    content: counter(item) ') 🏀';
+    position: absolute;
+    left: 0;
+    font-size: 0.8rem;
 }
 
 .project-links {
